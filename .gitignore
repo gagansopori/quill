@@ -1,8 +1,5 @@
-
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/inspectionProfiles/Project_Default.xml
-.idea/vcs.xml
-.idea/quill.iml
-.idea/modules.xml
-.idea/misc.xml
-.idea/workspace.xml
+#Ignoring IDE specific files
+.idea/**
+/venv/**
+/src/**/__pycache__/
+.gitattributes
