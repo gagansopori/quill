@@ -1,5 +1,14 @@
 # quill
 
+_**quill**_ is your all-in-one digital information assistant. With [RP-2040](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) 
+at its core & a vibrant e-ink display, quill aims to revive the nostalgia of the simpler things in life. You can get the 
+latest news, stock market information, quotes & poems, cartoons & what not (you're only limited by your imagination & to
+some extent the display driver the chip uses). 
+
+your traditional new-yorker calendar gone digital. Designed with RP2040 & e-ink in mind, this calendar helps us
+stay with the times & also reduce paper usage. 
+
+
 Designing an intelligent cartoon display system with user preferences involves several components. Here's a high-level 
 overview of the system you might consider:
 ### User Authentication and Preferences:
