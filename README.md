@@ -1,13 +1,37 @@
-# quill
+[![Platform](https://img.shields.io/badge/platform-Raspberry%20Pi-pink.svg)](https://www.raspberrypi.com/)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-_**quill**_ is your all-in-one digital information assistant. With [RP-2040](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) 
+# quill: calm, curated, connected.
+_**quill**_ is your all-in-one digital information assistant on an e-paper screen. Based on the principles of 
+[calm-technology](https://calmtech.com/), it aims to revive the nostalgia of a simpler time in life - information 
+through periphery. <p> It's a modular system, allowing users to choose from the following pre-defined modules:
+ - Cartoons (via [The New Yorker](https://www.newyorker.com/cartoons))
+ - Word of the Day (via [Merriam-Webster](https://www.merriam-webster.com/word-of-the-day))
+ - Artworks (via [The Maniac Scribbler](https://www.instagram.com/_themaniacscribbler_/))
+ - City Calendar of Events (via [Eventbrite](https://www.eventbrite.com/d/online/all-events/))
+ - News Headlines (via [News-Bulletin](https://github.com/gagansopori/News-BulletIn))
+
+## Vision
+The entire system is modular & users can choose one or more modules for their display from a set of different faces. Each 
+component on the _face_ is also configurable & allows the user to override 2 configurations:
+ - Update Frequency (Hourly, Daily or Weekly) or if they want to see this at a particular time (e.g.: 9 AM daily, top-of-the-hour etc.)
+ - Display Time (Morning, Afternoon, Evening or Night)
+
+## High Level Architecture 
+## Hardware
+Quill uses a client-server architecture, communicating using MQTT protocol. The client is a lightweight Both client & server can either be packed 
+into a single device, or split into two separate devices based on user preference. 
+
+
+
+
+
+<p>
+<s>
+fetches content from the internet & displays it With [RP-2040](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html) 
 at its core & a vibrant e-ink display, quill aims to revive the nostalgia of the simpler things in life. You can get the 
 latest news, stock market information, quotes & poems, cartoons & what not (you're only limited by your imagination & to
-some extent the display driver the chip uses). 
-
-your traditional new-yorker calendar gone digital. Designed with RP2040 & e-ink in mind, this calendar helps us
-stay with the times & also reduce paper usage. 
-
+some extent the display driver the chip uses).
 
 Designing an intelligent cartoon display system with user preferences involves several components. Here's a high-level 
 overview of the system you might consider:
@@ -38,5 +62,5 @@ overview of the system you might consider:
  - Use analytics to continuously improve the recommendation engine and overall user experience.
 ### Collaboration with The New Yorker:
  - Establish a collaboration or licensing agreement with The New Yorker to ensure the legal use of their cartoons in your system.
-### Monetization (Optional):
- - Consider monetization options such as subscription plans, ad placements, or partnerships with relevant brands.
+</s> 
+</p>
