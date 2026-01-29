@@ -11,7 +11,7 @@ through periphery. <p> It's a modular system, allowing users to choose from the 
  - City Calendar of Events (via [Eventbrite](https://www.eventbrite.com/d/online/all-events/))
  - News Headlines (via [News-Bulletin](https://github.com/gagansopori/News-BulletIn))
 
-## Vision
+## vision
 The entire system is modular & users can choose one or more modules for their display from a set of different faces. Each 
 component on the _face_ is also configurable & allows the user to override 2 configurations:
  - Update Frequency (Hourly, Daily or Weekly) or if they want to see this at a particular time (e.g.: 9 AM daily, top-of-the-hour etc.)
@@ -19,8 +19,8 @@ component on the _face_ is also configurable & allows the user to override 2 con
 
 ## High Level Architecture 
 ## Hardware
-Quill uses a client-server architecture, communicating using MQTT protocol. The client is a lightweight Both client & server can either be packed 
-into a single device, or split into two separate devices based on user preference. 
+Quill uses a client-server architecture, communicating using MQTT protocol. The client is a lightweight Both client & 
+server can either be packed into a single device, or split into two separate devices based on user preference. 
 
 
 
@@ -32,7 +32,6 @@ fetches content from the internet & displays it With [RP-2040](https://www.raspb
 at its core & a vibrant e-ink display, quill aims to revive the nostalgia of the simpler things in life. You can get the 
 latest news, stock market information, quotes & poems, cartoons & what not (you're only limited by your imagination & to
 some extent the display driver the chip uses).
-
 Designing an intelligent cartoon display system with user preferences involves several components. Here's a high-level 
 overview of the system you might consider:
 ### User Authentication and Preferences:
